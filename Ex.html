@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image and Content Layout</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f9fa;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            overflow: hidden;
+        }
+
+        .image-container {
+            float: left;
+            width: 40%; /* Adjust the width as needed */
+        }
+
+        .image-container img {
+            width: 100%;
+            height: auto;
+            display: block;
+        }
+
+        .content-container {
+            float: right;
+            width: 60%; /* Adjust the width as needed */
+            padding: 20px;
+            box-sizing: border-box;
+        }
+
+        h1 {
+            color: #007bff; /* Bootstrap primary color */
+        }
+
+        p {
+            line-height: 1.6;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <div class="image-container">
+        <img src="your-image-url.jpg" alt="Image Description">
+    </div>
+    <div class="content-container">
+        <h1>Title Here</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla facilisi. Duis et cursus dolor. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla facilisi. Integer vestibulum, nisl eu suscipit fermentum, arcu neque vestibulum velit, nec tincidunt odio quam quis nisi. Sed non semper dolor. Vestibulum non vestibulum libero, id semper orci.</p>
+    </div>
+</div>
+
+
+
+<div class="container">
+    <h1 style="text-align: center;">Collection</h1>
+      <div class="row">
+        
+          <div class="col-md-6" >
+              <img src="./Images/1.png" height="500" width="500" class="center">
+              <div class="col-md-6" >
+              <h1>kerala sarees 1
+              </h1>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi tempora quod distinctio, cupiditate voluptatem suscipit similique autem quas iusto ipsum rerum quisquam a deserunt ipsam. Quas ex officiis possimus dolore magni atque, eveniet et consequatur. Neque consequatur cupiditate sunt, perferendis et illo eveniet esse.</p>
+   </div>
+          </div>
+          <div class="col-md-6">
+              <img src="./Images/2.png" height="100" width="100">
+              <div class="col-md-6" >
+                                    <h1 class="rose">kerala sarees 2
+              </h1>
+              <p class="pink">Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi tempora quod distinctio, cupiditate voluptatem suscipit similique autem quas iusto ipsum rerum quisquam a deserunt ipsam. Quas ex officiis possimus dolore magni atque, eveniet et consequatur. Neque consequatur cupiditate sunt, perferendis et illo eveniet esse.</p>
+         </div>
+         </div>
+         <div class="col-md-6">
+         <img src="./Images/3.png" height="100" width="100" class="center">
+         <div class="col-md-6" >
+              <h1>kerala sarees 3
+              </h1>
+              <p >Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi tempora quod distinctio, cupiditate voluptatem suscipit similique autem quas iusto ipsum rerum quisquam a deserunt ipsam. Quas ex officiis possimus dolore magni atque, eveniet et consequatur. Neque consequatur cupiditate sunt, perferendis et illo eveniet esse.</p>
+          </div>
+      </div>
+
+      <div class="container" class="body1">
+          <div class="row justify-content-center">
+              <div class="col-md-12 form-container">
+                <h2 class="text-center">Place the order</h2>
+                  <form>
+                      <div class="form-group">
+                      <label>NAME</label>
+                      <input type="text" placeholder="Enter Your Name" class="form-control">
+                      </div>
+                      <div class="form-group">
+                              <label>PHONE NUMBER</label>
+                              <input type="number" placeholder="Enter your phone no" class="form-control">
+                          </div>
+                          <div class="form-group">
+                              <label>YOU WANT</label>
+                              <select>
+                                  <option>WHAT PRODUCT DO YOU WANT</option>
+                                  <option>Kerala Sarees</option>
+                                  <option>Kerala Veshti</option>
+                                  <option>Kerala cloth</option>
+                              </select>
+                          </div>
+                          <div class="form-group">
+                          <label>Message</label>
+                          
+                         <textarea class="form-control" rows="4" col="10"></textarea>
+
+                          </div>
+                          <button type="submit" class="btn-primary btn-block">Submit</button>
+    </form>
+    <div class="container mt-5">
+        <div class="card" style="width: 300px;">
+            <img src="your-image-url.jpg" class="card-img-top" alt="Image Description">
+            <div class="card-body">
+                <h5 class="card-title">Box Title</h5>
+                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla facilisi.</p>
+                <a href="#" class="btn btn-primary">Read More</a>
+            </div>
+        </div>
+    </div>
