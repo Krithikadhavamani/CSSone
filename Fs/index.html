@@ -7,9 +7,14 @@
 </head>
 <body>
     <button id="mybutton" class="float-left submit-button">Home</button>
+    <button id="a" onclick="myclick()">sss</button>
     <script type="text/javascript">
         document.getElementById("mybutton").onclick=function(){
             location.href="https://www.w3schools.com/";
+        }
+        function myclick(){
+            document.getElementById("a").style.backgroundColor="red";
+
         }
     </script>
 </body>
